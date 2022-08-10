@@ -1,0 +1,29 @@
+{
+  "name": "sftp-cg-lib",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "SFTP component for stablish connections with a sftp server and make this actions: View list of files inside a directory, get one file in base64, write a new file, delete a file, rename a file, create directories, delete direcgories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SFTP",
+    "GETLISTFILES",
+    "GETFILE",
+    "SAVEFILE",
+    "RENAMEFILE",
+    "DELETEFILE",
+    "CREATEDIRECTORY",
+    "BASE64",
+    "library",
+    "CloudGen",
+    "NexGen",
+    "components"
+  ],
+  "author": "Jafet Malvaez Lopez <jafet.malvaez@cloudgensys.com> (https://www.cloudgensys.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "ssh2-sftp-client": "^8.1.0",
+    "utils-nxg-cg": "^1.0.7"
+  }
+}
