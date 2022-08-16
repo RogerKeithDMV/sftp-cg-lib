@@ -1,6 +1,6 @@
 {
   "name": "sftp-cg-lib",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "SFTP component for stablish connections with a sftp server and make this actions: View list of files inside a directory, get one file in base64, write a new file, delete a file, rename a file, create directories, delete direcgories.",
   "main": "index.js",
   "scripts": {
